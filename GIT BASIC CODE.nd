@@ -1,0 +1,6 @@
+git config --global user.name @jujujuuu #사용자 이름 설정
+git config --global user.email projiwoo@naver.com #사용자 메일 수정
+git config --global core.autocrif true #줄 바꿈 자동 변화
+git config --global core.safecrif false #줄 바굼 안전 설정
+git config --global core.editor 'code --wait' #기본 편집기 설정
+git config --global init.defaultBranch main #기본 브랜치 이름을  main 으로 바꿈
