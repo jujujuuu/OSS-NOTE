@@ -1,0 +1,18 @@
+#저장소 생성 코드(작업디렉토리 생성)
+git init <저장소 이름> - 저장소 생성
+cd <저장소 이름> - 폴더 이동(두번 점(. .)을 하면 밑밑에서 작업이 가능함
+
+#파일 생성 코드 
+echo (파일에 들어갈 문장) > <파일이름>.txt
+cat hello.txt
+(파일에 들어갈 문장)
+
+git status --long - 현재 상태 표시
+git status --short -파일 상태를 간단히 표시 (=git status -s)
+
+#파일 add 하기
+git add <파일 이름>.txt
+git status --long
+No commits yet
+
+git rm --catched hello.txt -hello.txt파일이 스테이징 영역에서 삭제(다시 untracked file이 된다)
